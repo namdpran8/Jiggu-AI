@@ -46,7 +46,7 @@ function App() {
       </a>
       <textarea
         required
-        className="border border-gray-300 rounded w-full my-2 min-h-fit p-3 transition-all duration-300 focus:border-blue-400 focus:shadow-lg"
+        className="border border-gray-300 rounded w-full my-2 min-h-fit p-3 transition-all duration-300 focus:border-blue-400 focus:shadow-lg card"
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
         placeholder="Ask anything"
